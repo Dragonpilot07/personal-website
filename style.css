@@ -1,0 +1,102 @@
+.intro{
+    background-color:hsl(35, 57%, 86%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+.hero{
+    display: grid;
+    grid-template-rows: auto auto;
+    padding-left: 300px;
+    padding-top: 50px;
+}
+.left{
+    font-size: 24px;
+    max-width: 600px;
+}
+#arjun{
+    border-radius: 25%;
+    height: 450px;
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#hi{
+    color: #e16539;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.skills1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+h2{
+    margin-left: 45%;
+    margin-top: 100px;
+}
+.description1{
+    display: block;
+}
+.title1{
+    text-align: center;
+}
+.details1{
+    margin-left: 25%;
+    max-width: 400px;
+}
+#devimage{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+.skills2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.skatingimg{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    margin-bottom: 50px;
+}
+.skill2discr{
+    display: block;
+    text-align: center;
+}
+.skatingp{
+    max-width: 400px;
+    margin-left: 25%;
+}
+.resume{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.skillsmain{
+    background-color: #51abb2;
+}
+.skills-heading{
+    color: #303030;
+    padding-top: 50px;
+}
+.images{
+    border-radius: 25%;
+}
+@media only screen and (max-width: 600px) {
+   *{
+    flex:1;
+   }
+  }
+
+
+
+
+
+
+
+
